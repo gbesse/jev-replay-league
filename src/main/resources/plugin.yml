@@ -1,0 +1,12 @@
+name: JevReplayLeague
+version: 0.1.0
+main: org.jev.replayleague.JevReplayLeaguePlugin
+api-version: '1.21'
+description: Replayable finite-decision league for Paper servers
+commands:
+  jevleague:
+    description: Inspect or run the local Jev Replay League demo
+    usage: /jevleague demo
+permissions:
+  jevleague.admin:
+    default: op
